@@ -1,0 +1,446 @@
+object tform1: tform1
+  Left = 201
+  Height = 577
+  Top = 120
+  Width = 1444
+  Caption = 'Clase vector'
+  ClientHeight = 577
+  ClientWidth = 1444
+  Color = clGreen
+  LCLVersion = '4.8.0.0'
+  OnClick = formclick
+  OnCreate = FormCreate
+  object sg: TStringGrid
+    Left = 408
+    Height = 32
+    Top = 54
+    Width = 640
+    DefaultColWidth = 26
+    FixedCols = 0
+    FixedRows = 0
+    RowCount = 1
+    TabOrder = 0
+  end
+  object label1: TLabel
+    Left = 688
+    Height = 32
+    Top = 16
+    Width = 73
+    Caption = 'Vector'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -24
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object pos: TEdit
+    Left = 408
+    Height = 23
+    Top = 98
+    Width = 640
+    TabOrder = 1
+    TextHint = 'Posicion...'
+  end
+  object ele: TEdit
+    Left = 408
+    Height = 23
+    Top = 128
+    Width = 640
+    TabOrder = 2
+    TextHint = 'ELEMENTO....'
+  end
+  object button1: TButton
+    Left = 24
+    Height = 25
+    Top = 230
+    Width = 250
+    Caption = 'crear'
+    TabOrder = 4
+    OnClick = button1click
+  end
+  object button2: TButton
+    Left = 24
+    Height = 25
+    Top = 262
+    Width = 250
+    Caption = 'setdim'
+    TabOrder = 5
+    OnClick = button2click
+  end
+  object button3: TButton
+    Left = 24
+    Height = 25
+    Top = 294
+    Width = 250
+    Caption = 'getdim'
+    TabOrder = 6
+    OnClick = button3click
+  end
+  object button4: TButton
+    Left = 24
+    Height = 25
+    Top = 326
+    Width = 250
+    Caption = 'setelem'
+    TabOrder = 7
+    OnClick = button4click
+  end
+  object button5: TButton
+    Left = 24
+    Height = 25
+    Top = 358
+    Width = 250
+    Caption = 'getelem'
+    TabOrder = 8
+    OnClick = button5click
+  end
+  object button6: TButton
+    Left = 24
+    Height = 25
+    Top = 390
+    Width = 250
+    Caption = 'addelem'
+    TabOrder = 9
+    OnClick = button6click
+  end
+  object button7: TButton
+    Left = 24
+    Height = 25
+    Top = 422
+    Width = 250
+    Caption = 'inselem'
+    TabOrder = 10
+    OnClick = button7click
+  end
+  object button8: TButton
+    Left = 24
+    Height = 25
+    Top = 454
+    Width = 250
+    Caption = 'remelem'
+    TabOrder = 11
+    OnClick = button8click
+  end
+  object button9: TButton
+    Left = 1144
+    Height = 25
+    Top = 370
+    Width = 250
+    Caption = 'salir'
+    TabOrder = 29
+    OnClick = button9click
+  end
+  object busqbin: TButton
+    Left = 294
+    Height = 25
+    Top = 262
+    Width = 250
+    Caption = 'busqbin'
+    TabOrder = 13
+    OnClick = busqbinclick
+  end
+  object ordinter: TButton
+    Left = 584
+    Height = 25
+    Top = 256
+    Width = 250
+    Caption = 'ordinter'
+    TabOrder = 14
+    OnClick = ordinterclick
+  end
+  object cargar: TButton
+    Left = 1144
+    Height = 25
+    Top = 242
+    Width = 250
+    Caption = 'carga aleatoria'
+    TabOrder = 25
+    OnClick = cargarclick
+  end
+  object button10: TButton
+    Left = 1144
+    Height = 25
+    Top = 274
+    Width = 250
+    Caption = 'mostrar'
+    TabOrder = 26
+    OnClick = button10click
+  end
+  object button11: TButton
+    Left = 1144
+    Height = 25
+    Top = 306
+    Width = 250
+    Caption = 'como string'
+    TabOrder = 27
+    OnClick = button11click
+  end
+  object button12: TButton
+    Left = 296
+    Height = 25
+    Top = 330
+    Width = 250
+    Caption = 'invertir'
+    TabOrder = 20
+    OnClick = button12click
+  end
+  object button13: TButton
+    Left = 296
+    Height = 25
+    Top = 394
+    Width = 250
+    Caption = 'rotar derecha'
+    TabOrder = 22
+    OnClick = button13click
+  end
+  object button14: TButton
+    Left = 296
+    Height = 25
+    Top = 362
+    Width = 250
+    Caption = 'rotar izquierda'
+    TabOrder = 21
+    OnClick = button14click
+  end
+  object button15: TButton
+    Left = 294
+    Height = 25
+    Top = 230
+    Width = 250
+    Caption = 'busqsec'
+    TabOrder = 12
+    OnClick = button15click
+  end
+  object button16: TButton
+    Left = 584
+    Height = 25
+    Top = 288
+    Width = 250
+    Caption = 'ordburbuja'
+    TabOrder = 15
+    OnClick = button16click
+  end
+  object button17: TButton
+    Left = 584
+    Height = 25
+    Top = 320
+    Width = 250
+    Caption = 'ordseleccion'
+    TabOrder = 16
+    OnClick = button17click
+  end
+  object button18: TButton
+    Left = 584
+    Height = 25
+    Top = 352
+    Width = 250
+    Caption = 'ordinsercion'
+    TabOrder = 17
+    OnClick = button18click
+  end
+  object button19: TButton
+    Left = 584
+    Height = 25
+    Top = 384
+    Width = 250
+    Caption = 'quicksort'
+    TabOrder = 18
+    OnClick = button19click
+  end
+  object button20: TButton
+    Left = 584
+    Height = 25
+    Top = 416
+    Width = 250
+    Caption = 'shell'
+    TabOrder = 19
+    OnClick = button20click
+  end
+  object button21: TButton
+    Left = 296
+    Height = 25
+    Top = 426
+    Width = 250
+    Caption = 'eliminiar rep'
+    TabOrder = 23
+    OnClick = button21click
+  end
+  object button22: TButton
+    Left = 296
+    Height = 25
+    Top = 458
+    Width = 250
+    Caption = 'ordenarfrec'
+    TabOrder = 24
+    OnClick = button22click
+  end
+  object label2: TLabel
+    Left = 24
+    Height = 21
+    Top = 196
+    Width = 198
+    Caption = 'Atributos y Gestión Básica'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object label3: TLabel
+    Left = 294
+    Height = 21
+    Top = 196
+    Width = 187
+    Caption = 'Algoritmos de Búsqueda'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object label4: TLabel
+    Left = 584
+    Height = 21
+    Top = 222
+    Width = 223
+    Caption = 'Algoritmos de Ordenamiento'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object label5: TLabel
+    Left = 296
+    Height = 21
+    Top = 296
+    Width = 247
+    Caption = 'Operaciones y Transformaciones'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object label6: TLabel
+    Left = 1144
+    Height = 21
+    Top = 208
+    Width = 216
+    Caption = 'Entrada / Salida y Utilidades'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object label7: TLabel
+    Left = 920
+    Height = 21
+    Top = 196
+    Width = 155
+    Caption = 'Ejercicios aplicacion'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    OnClick = label7Click
+  end
+  object button23: TButton
+    Left = 872
+    Height = 25
+    Top = 224
+    Width = 250
+    Caption = 'carga definida'
+    TabOrder = 30
+    OnClick = button23click
+  end
+  object button24: TButton
+    Left = 872
+    Height = 25
+    Top = 256
+    Width = 250
+    Caption = 'purgar'
+    TabOrder = 31
+    OnClick = button24click
+  end
+  object button25: TButton
+    Left = 872
+    Height = 25
+    Top = 288
+    Width = 250
+    Caption = 'div par e impar'
+    TabOrder = 32
+    OnClick = button25click
+  end
+  object button26: TButton
+    Left = 872
+    Height = 25
+    Top = 320
+    Width = 250
+    Caption = 'cantidad de cortes de control'
+    TabOrder = 33
+    OnClick = button26click
+  end
+  object button27: TButton
+    Left = 872
+    Height = 25
+    Top = 352
+    Width = 250
+    Caption = 'elementos en cortes de control'
+    TabOrder = 34
+    OnClick = button27click
+  end
+  object button28: TButton
+    Left = 872
+    Height = 25
+    Top = 384
+    Width = 250
+    Caption = 'intercalar'
+    TabOrder = 35
+    OnClick = button28click
+  end
+  object button29: TButton
+    Left = 872
+    Height = 25
+    Top = 416
+    Width = 250
+    Caption = 'div primos y no primos'
+    TabOrder = 36
+    OnClick = button29click
+  end
+  object button30: TButton
+    Left = 872
+    Height = 25
+    Top = 448
+    Width = 250
+    Caption = 'div multiplos 2,3 y 5'
+    TabOrder = 37
+    OnClick = button30click
+  end
+  object ele2: TEdit
+    Left = 408
+    Height = 23
+    Top = 158
+    Width = 640
+    TabOrder = 3
+    TextHint = 'MULTIPLO DE 5'
+  end
+  object button31: TButton
+    Left = 1144
+    Height = 25
+    Top = 338
+    Width = 250
+    Caption = 'limpiar'
+    TabOrder = 28
+    OnClick = button31click
+  end
+end
